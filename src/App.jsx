@@ -1,17 +1,19 @@
 
 import './App.css'
-import VehicleDetails from './component/Vehicle_details'
 import Background from './component/Background'
-
+import Welcome from './component/welcome';
+import VehicleDetails from './component/Vehicle_details'
 function App() {
   return (
     <>
+
+      <Welcome />
       <Background />
       <div className="flex items-center justify-center absolute inset-0 z-2">
-      <VehicleDetails />
+        <VehicleDetails />
       </div>
-      </>
+    </>
   )
 }
 
-export default App
+export default App;
