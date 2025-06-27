@@ -48,3 +48,4 @@ function VehicleDetails() {
 
 export default VehicleDetails;
 
+
