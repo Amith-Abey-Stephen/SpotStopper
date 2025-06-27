@@ -1,1 +1,10 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global pink/purple gradient background */
+body {
+  @apply min-h-screen w-screen bg-no-repeat bg-cover bg-center bg-fixed flex justify-center items-center;
+  background-image: url('https://cdn.builder.io/api/v1/image/assets/TEMP/af37f9135b3a72dff881ed107e144e84e1b48924?placeholderIfAbsent=true');
+  background-color: #f5e6f7; /* fallback shade */
+}
